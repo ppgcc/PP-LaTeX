@@ -12,7 +12,7 @@ push @generated_exts, "los";
 push @generated_exts, "lov";
 
 $pdf_mode   = 1;
-$pdflatex   = "pdflatex -shell-escape %O %S && ./sort.sh %S";
+$pdflatex   = "pdflatex -shell-escape %O %S && sh sort.sh %S";
 $sleep_time = 1;
 $bibtex_use = 2;
 
